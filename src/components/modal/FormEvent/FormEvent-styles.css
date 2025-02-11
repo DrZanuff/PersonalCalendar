@@ -1,0 +1,17 @@
+.FormEvent-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.MuiTimeClock-root {
+  .MuiClock-pin,
+  .MuiClockPointer-root,
+  .MuiClockPointer-thumb {
+    background-color: var(--color-info) !important;
+  }
+
+  .MuiClockPointer-thumb {
+    border-color: var(--color-info) !important ;
+  }
+}

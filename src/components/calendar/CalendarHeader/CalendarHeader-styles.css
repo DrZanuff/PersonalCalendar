@@ -1,0 +1,27 @@
+.CalendarHeader-container {
+  display: flex;
+  gap: var(--card-spacing);
+}
+
+.CalendarHeader-header {
+  display: flex;
+  aspect-ratio: 1/1;
+  max-height: 20px;
+  min-width: var(--card-width);
+  justify-content: center;
+  width: 100%;
+}
+
+.CalendarHeader-card-content {
+  padding: 8px 16px !important;
+}
+
+@media (max-width: 768px) {
+  .CalendarHeader-card-content {
+    padding: 8px 4px !important;
+  }
+
+  .CalendarHeader-container {
+    gap: var(--card-spacing-mobile);
+  }
+}

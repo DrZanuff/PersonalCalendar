@@ -1,0 +1,12 @@
+import { Text, View } from 'react-native'
+import { styleContainer } from './{{name}}.styles'
+
+export function {{name}} ( ) {
+  const style = styleContainer()
+
+  return (
+    <View style={style.{{name}}Container}>
+      <Text>{{name}}</Text>
+    </View>
+  )
+}

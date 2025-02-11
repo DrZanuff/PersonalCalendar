@@ -1,0 +1,40 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.EventTag-button {
+  text-transform: unset !important;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  justify-content: start !important;
+  pointer-events: none;
+  color: white !important;
+
+  word-wrap: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.EventTag-button.large {
+  pointer-events: all;
+  color: white !important;
+  min-height: 46px;
+}
+
+@media (max-width: 768px) {
+  .EventTag-button:not(.large) {
+    padding: 2px;
+    max-height: 16px;
+    font-size: 9px;
+
+    img {
+      display: none;
+    }
+  }
+}

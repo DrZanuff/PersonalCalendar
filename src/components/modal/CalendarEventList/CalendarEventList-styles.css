@@ -1,0 +1,15 @@
+.CalendarEventList-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+
+  max-height: 300px;
+  min-height: 300px;
+
+  overflow-y: auto;
+
+  background-color: var(--color-border);
+  border-radius: 6px;
+  padding: 20px;
+}

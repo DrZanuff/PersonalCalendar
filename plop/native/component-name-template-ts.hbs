@@ -1,0 +1,14 @@
+import { Text, View } from 'react-native'
+import type { {{name}}Props } from './{{name}}.types'
+import { styleContainer } from './{{name}}.styles'
+
+export function {{name}} ( { value } : {{name}}Props ) {
+  const style = styleContainer()
+
+  return (
+    <View style={style.{{name}}Container}>
+      <Text>{{name}}</Text>
+      <Text>{value}</Text>
+    </View>
+  )
+}

@@ -6,8 +6,9 @@ Personal Calendar is a React + TypeScript application built with Vite, allowing 
 
 ![image](https://github.com/user-attachments/assets/d609676e-8f4d-4ca6-a31f-d4fd2cfb018c)
 
-
 ## Check it Online
+
+https://drzanuff-personal-calendar.netlify.app/
 
 ## Tech Stack
 
